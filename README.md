@@ -18,6 +18,10 @@ Above all, I am deeply passionate about creating innovative and impactful mobile
 🙏Thanks you for considering my application. I am eager to discuss how my skills and experience align with the needs of your team and contribute to the success of Freelance Bahawalpur.🌟
 
 ## Screenshots
+<p align="center">
+  <img src="[link_to_your_first_image.jpg](https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss1.png)" width="400" />
+  <img src="[link_to_your_second_image.jpg](https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss2.png)" width="400" /> 
+</p>
 
 ![App Screenshot](https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss1.png)
 ![App Screenshot](https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss2.png)
