@@ -19,8 +19,9 @@ Above all, I am deeply passionate about creating innovative and impactful mobile
 
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss1.png" width="400" />
-  <img src="https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss2.png" width="400" /> 
+  <img src="https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss1.png" width="30%" style="margin-right: 10px;"/>
+  <img src="https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss2.png" width="30%" style="margin: 0 10px;"/>
+  <img src="https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss3.png" width="30%" style="margin-left: 10px;"/>
 </p>
 
 ![App Screenshot](https://github.com/Arslan4546/Flutter-eCourse-App/blob/main/assets/screen%20shots/ss1.png)
