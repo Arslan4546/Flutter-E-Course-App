@@ -87,18 +87,23 @@ class _Screen8State extends State<Screen8> {
                               ],
                             ),
                            const SizedBox(width: 7,),
-                           Container(
-                             height: 40,
-                             width: 40,
-                             decoration: const BoxDecoration(
-      
-                               shape: BoxShape.circle,
-                               image: DecorationImage(
-                                 image: AssetImage(
-                                   "assets/images/arslan.png"
-                                 ),
-                                 fit: BoxFit.cover,
-                               )
+                           GestureDetector(
+                             onTap: (){
+                               Navigator.pushNamed(context, "/screen11");
+                             },
+                             child: Container(
+                               height: 40,
+                               width: 40,
+                               decoration: const BoxDecoration(
+
+                                 shape: BoxShape.circle,
+                                 image: DecorationImage(
+                                   image: AssetImage(
+                                     "assets/images/arslan.png"
+                                   ),
+                                   fit: BoxFit.cover,
+                                 )
+                               ),
                              ),
                            ),
       

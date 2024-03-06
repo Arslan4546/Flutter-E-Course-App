@@ -398,12 +398,17 @@ class _Screen11State extends State<Screen11> {
                   )
               ),
               const SizedBox(height: 30,),
-              const Text("Sign Out",style: TextStyle(
-                color: Color(0xFF56AF78),fontWeight: FontWeight.bold,
-                fontFamily: "fontMain1",
-                fontSize: 18,
+              GestureDetector(
+                onTap: (){
+                  Navigator.pushNamed(context, "/screen4");
+                },
+                child: const Text("Sign Out",style: TextStyle(
+                  color: Color(0xFF56AF78),fontWeight: FontWeight.bold,
+                  fontFamily: "fontMain1",
+                  fontSize: 18,
 
-              ),),
+                ),),
+              ),
           const SizedBox(height: 30,),
 
 
