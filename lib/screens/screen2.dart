@@ -87,17 +87,14 @@ class _Screen2State extends State<Screen2> {
                              ),
                              child:  Center(
                                  child: Row(
-                               
                                    children: [
                                      const SizedBox(width: 10,),
                                      Container(
                                        height: 25,
                                        width: 25,
                                        decoration: const BoxDecoration(
-                               
                                          image: DecorationImage(
                                            image: AssetImage(
-                               
                                              "assets/images/money1.png"
                                            )
                                          )
@@ -238,7 +235,6 @@ class _Screen2State extends State<Screen2> {
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
 
@@ -265,17 +261,14 @@ class _Screen2State extends State<Screen2> {
                             ),
                             child: Center(
                               child: Row(
-
                                 children: [
                                   const SizedBox(width: 10,),
                                   Container(
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
-
                                                 "assets/images/cooking.png"
                                             )
                                         )
@@ -310,10 +303,8 @@ class _Screen2State extends State<Screen2> {
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
-
                                                 "assets/images/design.png"
                                             )
                                         )
@@ -330,24 +321,20 @@ class _Screen2State extends State<Screen2> {
                         Flexible(
                           child: Container(
                             height: 40,
-
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
                                 border: Border.all(color: Colors.grey.withOpacity(0.6),width: 2)
                             ),
                             child: Center(
                               child: Row(
-
                                 children: [
                                   const SizedBox(width: 10,),
                                   Container(
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
-
                                                 "assets/images/coding.png"
                                             )
                                         )
@@ -375,17 +362,14 @@ class _Screen2State extends State<Screen2> {
                             ),
                             child: Center(
                               child: Row(
-
                                 children: [
                                   const SizedBox(width: 10,),
                                   Container(
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
-
                                                 "assets/images/dance.png"
                                             )
                                         )
@@ -402,24 +386,20 @@ class _Screen2State extends State<Screen2> {
                         Flexible(
                           child: Container(
                             height: 40,
-
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
                                 border: Border.all(color: Colors.grey.withOpacity(0.6),width: 2)
                             ),
                             child: Center(
                               child: Row(
-
                                 children: [
                                   const SizedBox(width: 10,),
                                   Container(
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
-
                                                 "assets/images/camra.png"
                                             )
                                         )
@@ -447,17 +427,14 @@ class _Screen2State extends State<Screen2> {
                             ),
                             child: Center(
                               child: Row(
-
                                 children: [
                                   const SizedBox(width: 10,),
                                   Container(
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
-
                                                 "assets/images/language.png"
                                             )
                                         )
@@ -481,17 +458,14 @@ class _Screen2State extends State<Screen2> {
                             ),
                             child: Center(
                               child: Row(
-
                                 children: [
                                   const SizedBox(width: 10,),
                                   Container(
                                     height: 25,
                                     width: 25,
                                     decoration: const BoxDecoration(
-
                                         image: DecorationImage(
                                             image: AssetImage(
-
                                                 "assets/images/cooking.png"
                                             )
                                         )
@@ -528,7 +502,7 @@ class _Screen2State extends State<Screen2> {
                   ),
                   child: const Icon(Icons.arrow_forward_ios_outlined,color: Colors.white,),
                 ),
-              )
+              ),
             ],
           ),
         ],
