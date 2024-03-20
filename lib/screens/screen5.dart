@@ -11,6 +11,7 @@ class Screen5 extends StatefulWidget {
 }
 
 class _Screen5State extends State<Screen5> {
+  bool _isChecked = false;
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
@@ -34,11 +35,11 @@ class _Screen5State extends State<Screen5> {
             const SizedBox(height: 25,),
             const EmailBox(textFieldName: "Email Address"),
             const SizedBox(height: 15),
-            const  PasswordBox(
+              const PasswordBox(
               textBox:" Create Password",
             ),
             const SizedBox(height: 15),
-            const  PasswordBox(
+              const PasswordBox(
               textBox:"Confirm Password",
             ),
             const SizedBox(height: 10),
@@ -51,18 +52,17 @@ class _Screen5State extends State<Screen5> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Container(
-                        height: 30,
-                        width: 30,
-                        decoration: BoxDecoration(
-                            image: const DecorationImage(
-                                image: AssetImage(
-                                    "assets/images/check.png"
-                                )
-                            ),
-                            borderRadius: BorderRadius.circular(10)
-                        ),
-                      ),
+                      Checkbox(
+                          side: const BorderSide(
+                            color: Colors.grey,
+                          ),
+                          checkColor: Colors.white,
+                          activeColor:const Color(0xFF56AF78),
+                          value: _isChecked, onChanged: (newValue){
+                        setState(() {
+                          _isChecked = newValue!;
+                        });
+                      }),
                       const Text("I agree to ",style: TextStyle(
                         fontSize: 11,
                         color: Colors.grey,

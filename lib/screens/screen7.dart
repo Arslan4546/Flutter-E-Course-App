@@ -31,11 +31,11 @@ class _Screen7State extends State<Screen7> {
               child: const Text("New Password",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 28,fontFamily: "fontMain1"),),
             ),
             const SizedBox(height: 30,),
-            const  PasswordBox(
+              const PasswordBox(
               textBox:"Create new password",
             ),
             const SizedBox(height: 15,),
-            const  PasswordBox(
+              const PasswordBox(
               textBox:"Confirm password",
             ),
             const  SizedBox(height: 5,),
