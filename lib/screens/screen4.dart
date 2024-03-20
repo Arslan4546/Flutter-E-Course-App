@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../components/email_box.dart';
 import '../components/main_button.dart';
 import '../components/password_box.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Screen4 extends StatefulWidget {
 
@@ -13,6 +14,12 @@ class Screen4 extends StatefulWidget {
 
 class _Screen4State extends State<Screen4> {
   bool _isChecked = false;
+  Future<void> openUrl(String url) async {
+    if (!await launchUrl(Uri.parse(url),
+        mode: LaunchMode.externalApplication)) {
+      throw Exception("could not fount $url");
+    }
+  }
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
@@ -120,73 +127,83 @@ class _Screen4State extends State<Screen4> {
                 ),
               ),
               const SizedBox(height: 30,),
-              Container(
-                height: 40,
-                width: double.infinity,
-                margin: const EdgeInsets.symmetric(horizontal: 30,),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30),
-                  border: Border.all(color: Colors.grey.withOpacity(0.2))
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Container(
-                      height: 20,
-                      width: 20,
-
-                      decoration: const BoxDecoration(
-                        shape: BoxShape.circle,
-                        image: DecorationImage(
-                          image: AssetImage(
-                            "assets/images/facebook.png"
-                          ),
-                          fit: BoxFit.cover,
-                        )
-                      ),
-                    ),
-                    const SizedBox(width: 10,),
-                    const Text("Continue With Facebook",style: TextStyle(
-                     fontFamily: "fontMain1",
-                      fontSize: 12,
-
-                    ),)
-                  ],
-                ),
-              ),
-              const SizedBox(height: 20,),
-              Container(
-                height: 40,
-                width: double.infinity,
-                margin: const EdgeInsets.symmetric(horizontal: 30,),
-                decoration: BoxDecoration(
+              GestureDetector(
+                onTap: (){
+                  openUrl("https://www.facebook.com/");
+                },
+                child: Container(
+                  height: 40,
+                  width: double.infinity,
+                  margin: const EdgeInsets.symmetric(horizontal: 30,),
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
                     border: Border.all(color: Colors.grey.withOpacity(0.2))
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Container(
-                      height: 20,
-                      width: 20,
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        height: 20,
+                        width: 20,
 
-                      decoration: const BoxDecoration(
+                        decoration: const BoxDecoration(
                           shape: BoxShape.circle,
                           image: DecorationImage(
                             image: AssetImage(
-                                "assets/images/google.png"
+                              "assets/images/facebook.png"
                             ),
                             fit: BoxFit.cover,
                           )
+                        ),
                       ),
-                    ),
-                    const SizedBox(width: 10,),
-                    const Text("Continue With Google",style: TextStyle(
-                      fontFamily: "fontMain1",
-                      fontSize: 12,
+                      const SizedBox(width: 10,),
+                      const Text("Continue With Facebook",style: TextStyle(
+                       fontFamily: "fontMain1",
+                        fontSize: 12,
 
-                    ),)
-                  ],
+                      ),)
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 20,),
+              GestureDetector(
+                onTap: (){
+                  openUrl("https://www.google.com/");
+                },
+                child: Container(
+                  height: 40,
+                  width: double.infinity,
+                  margin: const EdgeInsets.symmetric(horizontal: 30,),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      border: Border.all(color: Colors.grey.withOpacity(0.2))
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        height: 20,
+                        width: 20,
+
+                        decoration: const BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                              image: AssetImage(
+                                  "assets/images/google.png"
+                              ),
+                              fit: BoxFit.cover,
+                            )
+                        ),
+                      ),
+                      const SizedBox(width: 10,),
+                      const Text("Continue With Google",style: TextStyle(
+                        fontFamily: "fontMain1",
+                        fontSize: 12,
+
+                      ),)
+                    ],
+                  ),
                 ),
               ),
 
