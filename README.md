@@ -7,7 +7,7 @@ Empower your learning journey with our innovative eCourse app, meticulously craf
 
 👋Hello! My name is Arslan Tariq, and I am a dedicated Flutter developer with a passion for creating high-quality mobile applications. With 2+ years of experience in the field, I have honed my skills in developing intuitive and visually appealing apps that delight users.
 
-🚀Throughout my career, I have successfully completed numerous projects, demonstrating my proficiency in leveraging Flutter's robust framework to deliver outstanding results. My expertise extends to UI/UX design, state management, and integrating third-party APIs, ensuring seamless functionality and optimal performance in all my applications.
+🚀Throughout my career, I have completed numerous projects, demonstrating my proficiency in leveraging Flutter's robust framework to deliver outstanding results. My expertise extends to UI/UX design, state management, and integrating third-party APIs, ensuring seamless functionality and optimal performance in all my applications.
 
 💡I am particularly proud of my recent project, E-Course App, where I led a team to develop a groundbreaking e-course app that revolutionized online learning. From conceptualization to deployment, I played a key role in every stage of the project, showcasing my ability to collaborate effectively, solve complex challenges, and deliver exceptional solutions on time and within budget.
 
